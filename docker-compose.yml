@@ -8,4 +8,4 @@ services:
       - MINIO_SECRET_KEY=password
     ports:
       - 9000:9000
-    command: minio server /data
+    command: miqnio server /data
